@@ -1,6 +1,13 @@
 import streamlit as st
 from openai import OpenAI
 
+# Page configuration
+st.set_page_config(
+        page_title="GPT",
+        page_icon="chart_with_upwards_trend",
+        layout="wide",
+    )
+
 # Show title and description.
 st.title("📄 My document question answering")
 st.write(
